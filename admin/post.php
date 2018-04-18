@@ -99,11 +99,11 @@ $uname=$_SESSION['uname'];
                                 echo "<td>".$row['category']."</td>";
                                  echo "<td>".
                                     "<a href='topic-details.php?post_Id=$id' class='btn btn-default'>Details</a>"." ".
-                                    "<a href='edit-topic.php?post_Id=$id' class='btn btn-default'>Edit</a>"." ".
+                                    " ".
                                     "<a href='delete-topic.php?post_Id=$id' class='btn btn-default'>Delete</a>"
                                     ."</td>";
                                 echo "</tr>";
-                            }
+                            }//"<a href='edit-topic.php?post_Id=$id' class='btn btn-default'>Edit</a>".
                            
 
                             ?>
